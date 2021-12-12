@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="{?RJVmT*_VoqV*)P/yr%">pop</variable></variables><block type="pxt-on-start" id="`-y#s@izCU0lSz1TxiA%" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="7TF]CA%aA~O9Kn528=KF"><field name="VAR" id="{?RJVmT*_VoqV*)P/yr%">pop</field><value name="VALUE"><shadow type="math_number" id="#8YjScIT(2$p_Fq%K+UA"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_forever" id="%}6nN,[!DN:vK(ZqCN5d" x="289" y="7"/><block type="device_gesture_event" id="#@@r|~!#JJ}~JhO]MjoH" x="36" y="152"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="controls_if" id="P7L2-`.0k}FK8%OW35^S"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="#{X+#9zc#]+q,06gvcEJ"><field name="OP">GTE</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="vKFM2NVnHnvL~3BLI7)?"><field name="VAR" id="{?RJVmT*_VoqV*)P/yr%">pop</field></block></value><value name="B"><shadow type="math_number" id="LudH=C!~L9qdo.~Tzr4Y"><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="DXU!`JQ72``[G52E6Pi$"><field name="LEDS">`
+        # . # . # 
+        . # # # . 
+        # # # # # 
+        . # # # . 
+        # . # . #
+        `</field></block></statement><statement name="ELSE"><block type="variables_change" id="Rev2u.1^S9:styA]I]dQ"><field name="VAR" id="{?RJVmT*_VoqV*)P/yr%">pop</field><value name="VALUE"><shadow type="math_number"><field name="NUM">1</field></shadow><block type="device_random" id="BQ,!^$AFjqPbMFGB7s$r"><value name="min"><shadow type="math_number" id="H@klytAnf9Qz)ZyNqlPL"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="Da(S[X60$g^]~)C}n569"><field name="NUM">4</field></shadow></value></block></value><next><block type="device_show_leds" id="~k{dJ*hiulba=avy(~ld"><field name="LEDS">`
+        . . . # . 
+        . . # . . 
+        # . . . # 
+        . . # . . 
+        . # . . #
+        `</field><next><block type="device_show_leds" id="G#,D|ohXsL6Y7JU*Ub-."><field name="LEDS">`
+        . . # . . 
+        # . . . # 
+        . . # . . 
+        . # . . # 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></statement></block></xml>
